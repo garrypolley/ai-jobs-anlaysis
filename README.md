@@ -4,7 +4,7 @@ A comprehensive NextJS application that analyzes the impact of artificial intell
 
 ## Overview
 
-This dashboard visualizes and analyzes data from the [Anthropic Economic Index](https://huggingface.co/datasets/Anthropic/EconomicIndex/tree/main/release_2025_03_27) to help understand how AI might affect different types of work. The analysis is particularly relevant in light of recent industry discussions about AI's potential to displace entry-level white-collar jobs.
+This dashboard visualizes and analyzes data from the [Anthropic Economic Index](https://www.anthropic.com/economic-index) to help understand how AI might affect different types of work. The data is sourced from their [Hugging Face dataset](https://huggingface.co/datasets/Anthropic/EconomicIndex/tree/main/release_2025_03_27). The analysis is particularly relevant in light of recent industry discussions about AI's potential to displace entry-level white-collar jobs.
 
 ## Features
 
@@ -16,9 +16,20 @@ This dashboard visualizes and analyzes data from the [Anthropic Economic Index](
 
 ## Data Sources
 
-- **Anthropic Economic Index** (Release 2025-03-27)
+This analysis is powered by data from the **Anthropic Economic Index**, which provides insights into AI's effects on the labor market and broader economy over time.
+
+### Primary Data Sources
+
+- **[Anthropic Economic Index](https://www.anthropic.com/economic-index)** - Main research initiative analyzing how Claude is used across the economy
+- **[Hugging Face Dataset](https://huggingface.co/datasets/Anthropic/EconomicIndex/tree/main/release_2025_03_27)** - Specific dataset release (2025-03-27) containing the processed data used in this analysis
 - **O*NET Database** - Occupational task information
 - **Bureau of Labor Statistics** - Standard Occupational Classification (SOC)
+
+### Data Attribution
+
+The core dataset is sourced directly from Anthropic's Economic Index research, which "aims to understand AI's effects on the labor market and broader economy over time" and "provides the clearest picture yet of how AI is being incorporated into real-world tasks across the modern economy."
+
+For the most up-to-date information and research findings, visit: https://www.anthropic.com/economic-index
 
 ## Key Metrics Analyzed
 
