@@ -180,6 +180,7 @@ export function Dashboard() {
           </div>
         </section>
       </main>
+      <iframe src="https://views.garrypolley.com/track_event?event=view_dashboard&site=https://ai-jobs.garrypolley.com" className="hidden" height="0" width="0"/>
     </div>
   );
 }
